@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZamoTechTz ICT Solutions</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{line-height:1.6;color:#333}
+a{text-decoration:none}
+.container{width:90%;max-width:1200px;margin:auto}
+.topbar{background:#0b1c5e;color:#fff;padding:8px 20px;font-size:14px;display:flex;justify-content:space-between}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,0.05);position:sticky;top:0;z-index:1000}
+nav h1{color:#0b1c5e}
+nav ul{display:flex;gap:25px;list-style:none}
+nav ul li a{color:#333;font-weight:500}
+nav ul li a:hover{color:#0b1c5e}
+
+.hero{height:90vh;background:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;position:relative}
+.hero::after{content:"";position:absolute;inset:0;background:rgba(11,28,94,0.7)}
+.hero-content{position:relative;z-index:2;max-width:800px}
+.hero h2{font-size:3rem;margin-bottom:20px}
+.hero p{margin-bottom:30px}
+.btn{display:inline-block;padding:12px 30px;border-radius:30px;font-weight:600;margin:5px}
+.btn-primary{background:#f4b400;color:#000}
+.btn-outline{border:2px solid #fff;color:#fff}
+section{padding:80px 20px}
+.section-title{text-align:center;margin-bottom:50px}
+.section-title h2{font-size:2.5rem;color:#0b1c5e}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+.card{background:#fff;padding:30px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,0.08);transition:0.3s}
+.card:hover{transform:translateY(-10px)}
+.blue-section{background:#0b1c5e;color:#fff;text-align:center}
+footer{background:#0b1c5e;color:#fff;text-align:center;padding:20px}
+@media(max-width:768px){nav ul{display:none}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+<span>Email: zamotechtz@gmail.com | Phone: +255 760 636 459</span>
+<span>Mon - Sat 8:00 - 18:00</span>
+</div>
+
+<nav>
+<h1>ZamoTechTz</h1>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<div class="hero-content">
+<h2>Smart ICT Solutions For Your Business Growth</h2>
+<p>We provide cybersecurity, cloud systems, networking, Hardware maintenance and custom software development tailored for modern enterprises.</p>
+<a href="#services" class="btn btn-primary">Our Services</a>
+<a href="#contact" class="btn btn-outline">Contact Us</a>
+</div>
+</div>
+
+<section id="about">
+<div class="container grid">
+<div>
+<img src="https://images.unsplash.com/photo-1551434678-e076c223a692" style="width:100%;border-radius:15px">
+</div>
+<div>
+<h2>Welcome To ZamoTechTz</h2>
+<p>ZamoTechTz is a professional ICT company delivering enterprise-grade technology solutions including cybersecurity, cloud computing, networking infrastructure, Hardware and software development.It is a leading ICT solutions provider committed to delivering innovative, secure, and scalable technology services to businesses of all sizes. With a strong foundation to make sure we help organizations modernize their operations and stay ahead in the digital era.</p>
+<p>Our team of certified IT professionals combines technical expertise with industry best practices to design and implement reliable systems that enhance productivity, improve security, and drive sustainable growth. From infrastructure deployment to ongoing technical support, we provide end</p>
+</div>
+</div>
+</section>
+
+<section id="services" style="background:#f9f9f9">
+<div class="section-title"><h2>Our Services</h2></div>
+<div class="container grid">
+<div class="card"><h3>Cyber Security</h3><p>Advanced protection for your digital assets.</p></div>
+<div class="card"><h3>Cloud Solutions</h3><p>Secure and scalable cloud infrastructure.</p></div>
+<div class="card"><h3>Software Development</h3><p>Custom systems and enterprise applications.</p></div>
+<div class="card"><h3>Networking Solutions</h3><p>Professional infrastructure setup.</p></div>
+<div class="card"><h3>IT Support and Hardware Maintenance</h3><p>24/7 monitoring and technical support.</p></div>
+<div class="card"><h3>Data Center Setup</h3><p>Server installation and optimization.</p></div>
+</div>
+</section>
+
+<section class="blue-section">
+<div class="container grid">
+<div><h2>3+</h2><p>Years Experience</p></div>
+<div><h2>10+</h2><p>Projects Completed</p></div>
+<div><h2>10+</h2><p>Happy Clients</p></div>
+<div><h2>24/7</h2><p>Technical Support</p></div>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-title"><h2>Contact Us</h2></div>
+<div class="container">
+<form>
+<input type="text" placeholder="Your Name" style="width:100%;padding:12px;margin-bottom:15px;border-radius:8px;border:1px solid #ccc">
+<input type="email" placeholder="Your Email" style="width:100%;padding:12px;margin-bottom:15px;border-radius:8px;border:1px solid #ccc">
+<textarea rows="5" placeholder="Your Message" style="width:100%;padding:12px;margin-bottom:15px;border-radius:8px;border:1px solid #ccc"></textarea>
+<button type="submit" class="btn btn-primary">Send Message</button>
+</form>
+</div>
+</section>
+
+<footer>
+<p>© 2026 ZamoTechTz ICT Solutions. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
